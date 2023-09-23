@@ -1,0 +1,149 @@
+/* Lexend */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+
+/* Ubunto */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Ubunto Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+/* Comfortaa */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+/* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Red Hat Display */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Didact Gothic */
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+/* Barlow Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Azo Sans */
+@font-face { 
+    font-family: "Azo Sans";  
+    src: url("/fonts/Azo Sans")format("truetype"); 
+}
+
+* {
+    font-family: 'Lexend', Arial;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EDF2F4;
+}
+
+.header-container {
+    margin-bottom: 50px;
+    position: relative;
+    height: 80px;
+    background-color: #003049;
+}
+
+.header-logo img {
+    margin: auto 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-links {
+    right: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-links a {
+    color: #EDF2F4;
+    margin: auto 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.paleta {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.cor {
+    border: 2px solid black;
+    padding: 100px 50px;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    color: #EDF2F4;
+}
+.cor1 {
+    color: #23292E;
+    background-color: #FFC43D;
+}
+.cor2 {
+    background-color: #1098F7;
+}
+.cor3 {
+    background-color: #003049;
+}
+.cor4 {
+    color: #23292E;
+    background-color: #EDF2F4;
+}
+.cor5 {
+    background-color: #23292E;
+}
+
+.logos {
+    width: 100%;
+    text-align: center;
+}
+.logos img {
+    padding: 5px;
+    margin: 30px 9px;
+    display: inline-block;
+    width: 15%;
+    height: auto;
+}
+
+.fontes {
+    padding: 20px;
+    color: #EDF2F4;
+    background-color: #23292E;
+}
+.fontes p {
+    text-align: justify;
+    text-indent: 20px;
+    margin: 10px;
+}
+.Lexend {
+    font-family: 'Lexend';
+}
+.Ubuntu {
+    font-family: 'Ubuntu';
+}
+.UbuntuC {
+    font-family: 'Ubuntu Condensed';
+}
+.Comfortaa {
+    font-family: 'Comfortaa';
+}
+.Open {
+    font-family: 'Open Sans';
+}
+.Red {
+    font-family: 'Red Hat Display';
+}
+.Didact {
+    font-family: 'Didact Gothic';
+}
+.Barlow {
+    font-family: 'Barlow Condensed';
+}
+.Azo {
+    font-family: 'Azo Sans';
+}
